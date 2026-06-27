@@ -1,0 +1,14 @@
+dspy-ai
+langchain-chroma
+langchain-community
+langchain-core
+langchain-openai
+langchain-text-splitters
+openai
+scikit-learn
+matplotlib
+pandas
+yfinance
+pypdf
+chromadb
+ipykernel
