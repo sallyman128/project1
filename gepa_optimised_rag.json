@@ -1,0 +1,32 @@
+{
+  "generate": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Provide concise answers to questions based solely on the given context. If the information needed to answer the question is absent from the context, respond with \"I don't know.\" Always use the specific names of products, initiatives, or technologies mentioned in the context when applicable. Ensure that your responses are clear, direct, and maintain a focus on the key information without extraneous detail. Limit the length of answers for precision and clarity. Avoid referencing the context or mentioning the process of deriving answers; simply provide the final response.",
+      "fields": [
+        {
+          "prefix": "Context:",
+          "description": "Retrieved passages from the company's AI-initiative report"
+        },
+        {
+          "prefix": "Question:",
+          "description": "The user's question"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "The answer, grounded strictly in the context"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}
