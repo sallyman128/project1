@@ -1,15 +1,12 @@
 Q#,question,answer,groundedness,context_relevance,answer_relevance,pass_all
 Q1,What is Google's primary foundation-model family?,Google's primary foundation-model family is Gemini.,5,4,5,True
-Q2,What are the main AI initiatives IBM is pursuing?,"IBM is pursuing several main AI initiatives, including:  
-- Enhancing decision-making by analyzing vast amounts of structured and unstructured data to provide actionable insights.  
-- Automating processes through natural language processing and machine learning to improve efficiency.  
-- Facilitating innovation by providing tools for developing AI models and applications that drive new business opportunities.  
-- Ensuring responsible AI usage with built-in governance and compliance features.  
-- Developing scalable, customizable, and secure AI solutions through platforms like Watson, Watsonx, and the Granite AI models.  
-- Focusing on improving efficiency, reducing operational costs, and enabling faster innovation while ensuring responsible, transparent, and ethical use of AI technologies.",5,5,5,True
-Q3,How does NVIDIA's AI strategy differ from Amazon's AI strategy?,I don't know.,1,2,1,False
+Q2,What are the main AI initiatives IBM is pursuing?,"The main AI initiatives IBM is pursuing include enhancing decision-making, automating processes, facilitating innovation, and ensuring responsible AI usage. Additionally, IBM is developing AI solutions through platforms like Watson, Watsonx, and Granite AI models, focusing on improving efficiency, reducing operational costs, and enabling faster innovation while promoting ethical use of AI technologies.",5,5,5,True
+Q3,How does NVIDIA's AI strategy differ from Amazon's AI strategy?,I don't know.,1,3,1,False
 Q4,What was Microsoft's total AI revenue for fiscal year 2025?,I don't know.,1,1,1,False
 Q5,What timelines are mentioned for Amazon's foundation-model initiatives?,"The timelines mentioned for Amazon's foundation-model initiatives are:
 
-- Announcement and Preview: Amazon Bedrock was announced in April 2023, with a preview release allowing select customers to explore its capabilities.
-- General Availability: The platform became generally available in July 2023.",5,4,5,True
+1. **Announcement and Preview**: Amazon Bedrock was announced in April 2023, with a preview release allowing select customers to explore its capabilities.
+2. **General Availability**: The platform became generally available in July 2023.
+3. **Ongoing Developments**: Since its launch, AWS has continued to enhance Bedrock's features. 
+
+For the Olympus model, the development has been ongoing over the past year, but the exact start date is not publicly disclosed.",5,4,5,True

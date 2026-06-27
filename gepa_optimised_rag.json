@@ -4,7 +4,7 @@
     "train": [],
     "demos": [],
     "signature": {
-      "instructions": "Provide concise answers to questions based solely on the given context. If the information needed to answer the question is absent from the context, respond with \"I don't know.\" Always use the specific names of products, initiatives, or technologies mentioned in the context when applicable. Ensure that your responses are clear, direct, and maintain a focus on the key information without extraneous detail. Limit the length of answers for precision and clarity. Avoid referencing the context or mentioning the process of deriving answers; simply provide the final response.",
+      "instructions": "Answer the question using ONLY the information provided in the context. If the context does not contain enough information to answer the question, respond with exactly: I don't know. Do not mention the context or phrase it as \"based on the context.\" Be precise and extract only the specific names of products, platforms, or initiatives without paraphrasing or adding extra information. Maintain clarity and conciseness in your responses, aiming for direct answers that identify key components like model names, platforms, or features when relevant. Always prioritize extracting the exact terminology presented in the context over general descriptions.",
       "fields": [
         {
           "prefix": "Context:",
